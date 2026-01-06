@@ -13,7 +13,7 @@ data:
     <!DOCTYPE html>
     <html>
     <head><title>GitOps Demo</title></head>
-    <body style="background-color: #111111; color: black; text-align: center; padding-top: 50px;">
+    <body style="background-color: #111111; color: red; text-align: center; padding-top: 50px;">
       <h1>Hello Class 1125!</h1>
       <p>Deployed via ArgoCD</p>
     </body>
