@@ -56,7 +56,7 @@ metadata:
   name: argo-network
   namespace: student-apps
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: nginx-site
   ports:
