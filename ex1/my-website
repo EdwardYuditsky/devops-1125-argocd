@@ -16,9 +16,16 @@ data:
 ---
 apiVersion: v1
 kind: Service
-.
-.
-.
+metadata:
+  name: argo-network
+spec:
+  selector:
+    name: nginx
+  type: NodePort
+  ports:
+  - name: foo
+    port: 80
+    targetPort: 80
 ---
 apiVersion: apps/v1
 kind: Deployment
